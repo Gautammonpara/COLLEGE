@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4_marks.css">
+    <script src="E:\college_assingnment\WD - 2\assignment_1\jquery.js"></script>
+    <script>
+        $(function () {
+
+            $("#btn").click(function () {
+
+                var a = $("#b1").val();
+                var b = $("#b2").val();
+                var c = $("#b3").val();
+                var d = $("#b4").val();
+                var e = $("#b5").val();
+                var sum=Number(a)+Number(b)+Number(c)+Number(d)+Number(e);
+                var p=sum/5;
+                $("#to").val(sum);
+                $("#pr").val(p);
+
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div class="sum">
+        <form>
+            <div class="firstname">
+                <label><b>
+                    FIRST NAME :
+                </b></label>
+                <input type="text" id="fname"  style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="lastname">
+                <label><b>
+                    LAST NAME :
+                </b></label>
+                <input type="text" id="lname" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="a"><b>
+                <label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    JAVA :
+                </b></label>
+                <input type="text" id="b1" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="b">
+                <label><b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    .NET :
+                </b></label>
+                <input type="text" id="b2" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="c">
+                <label><b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    W_D-2 :
+                </b></label>
+                <input type="text" id="b3" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="d">
+                <label><b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I_S :
+                </b></label>
+                <input type="text" id="b4" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="e">
+                <label><b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    I_O_T :
+                </b></label>
+                <input type="text" id="b5" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="bttn">
+                <input type="button" id="btn" value="SUBMIT" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="tot">
+                <label><b>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    TOTAL :
+                </b></label>
+                <input type="text" id="to" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+            <div class="per">
+                <label><b>
+                    PERCENTAGE :
+                </b></label>
+                <input type="text" id="pr" name="" style="width: 180px;height: 30px;font-size: 18px;">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

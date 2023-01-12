@@ -1,0 +1,55 @@
+
+.sum{
+    display: flex;
+    margin-left: 50px;
+    text-decoration: solid;
+    
+}
+.firstname{
+    position: absolute;
+    margin-top: 60px;
+
+}
+.lastname{
+    position: absolute;
+    margin-top: 120px;
+
+}
+.a{
+    position: absolute;
+    margin-top: 180px;
+
+}
+.b{
+    position: absolute;
+    margin-top: 240px;
+
+}
+.c{
+    position: absolute;
+    margin-top: 300px;
+
+}
+.d{
+    position: absolute;
+    margin-top: 360px;
+
+}
+.e{
+    position: absolute;
+    margin-top: 420px;
+
+}
+.bttn{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 100px;
+}
+.tot{
+    position: absolute;
+    margin-top: 540px;
+}
+.per{
+    position: absolute;
+    margin-top: 600px;
+}

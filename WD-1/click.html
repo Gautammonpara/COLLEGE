@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="E:\College_Program\WD-1\jquery.js"></script>
+
+	<script>
+		$(function(){
+
+			$("#btn").click( function(){
+
+				var a=$("#b1").val();
+				var b=$("#b2").val();
+				$("#b3").val(Number(a)+Number(b));
+				$("#p1").html("Your Answer Is : "+(Number(a)+Number(b))).hide(4000);
+			});
+
+
+		});
+	</script>
+
+</head>
+<body>
+
+<p id="p1"></p>
+<form>
+	A : <input type="text" id="b1" name=""><br><br>
+	B : <input type="text" id="b2" name=""><br><br>
+		<input type="button" id="btn" name="" value="addi"><br><br>
+	C : <input type="text" id="b3" name="">
+</form>
+
+</body>
+</html>

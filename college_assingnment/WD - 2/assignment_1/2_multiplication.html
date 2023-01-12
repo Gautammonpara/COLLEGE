@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            position: relative;
+        }
+
+        .sum {
+            position: absolute;
+            top: 30%;
+            left: 18%;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .a {
+            display: flex;
+            margin: 10px;
+            border: none;
+        }
+
+        .a input {
+            background: #000;
+            color: white;
+            outline: 2px solid red;
+            border: none;
+        }
+
+        .answer input {
+            height: 30px;
+            width: 170px;
+            margin-left: 50px;
+        }
+
+        .a input:hover {
+            background: #000;
+        }
+
+        .a input:hover:focus {
+            background: white;
+            color: black;
+        }
+    </style>
+    <script src="E:\college_assingnment\WD - 2\assignment_1\jquery.js"></script>
+    <script>
+        $(function () {
+
+            $("#btn").click(function () {
+
+                var a = $("#b1").val();
+                var b = $("#b2").val();
+                $("#b3").val(Number(a) * Number(b));
+            });
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <section class="image">
+        <div class="container">
+            <div class="sum">
+                <div class="a">
+                    <h1>A : &nbsp;</h1>
+                    <input type="text" id="b1" name="">
+                </div>
+                <div class="a">
+                    <h1>B : &nbsp;</h1>
+                    <input type="text" id="b2" name="">
+
+                </div>
+                <div class="answer">
+                    <input type="button" id="btn" name="" value="MULTIPLICATION">
+                </div>
+                <div class="a">
+                    <h1>C : &nbsp;</h1>
+                    <input type="text" id="b3" name="">
+                </div>
+
+            </div>
+    </section>
+
+
+</body>
+
+</html>

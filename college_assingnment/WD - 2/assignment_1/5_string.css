@@ -1,0 +1,21 @@
+.sum{
+    display: flex;
+    margin-left: 50px;
+    text-decoration: solid;
+    
+}
+.firstname{
+    position: absolute;
+    margin-top: 60px;
+
+}
+.bttn{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 135px;
+}
+.lastname{
+    position: absolute;
+    margin-top: 180px;
+
+}
